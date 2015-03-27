@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MusiCart</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id='header'>
+  <!-- Header Image Displayes here -->
+  </div>
+  <div id='menu'>
+    <div id="navbar">
+      <ul>
+        <li><a href="/items">Products</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="/admin">Login</a></li>
+        <li><a href="/logout">Logout</a></li>
+        <li><a href="/users">Register</a></li>
+        <li><a href="/cart">View Cart</a></li>
+      </ul>
+    </div> 
+
+  </div>
+  <div id='container'>
+    <div id='content'>
+  		<%= yield %>
+    </div>
+    <div id='first-column'>
+    	<div class="searchbox">
+    		<h2 class="BoxHeaders">Search</h2>
+    		<input type="text" name="search" /><input type="submit" value="Search" />
+    	</div>
+      <div class="box">
+        <h2 class="BoxHeaders">Fan gift</h2>
+        <img src="/assets/T-shirt_-_Nirvana_-_smile_01.jpg" name="Rotating" id="Rotating1" alt="fan gift">
+    		<script type="text/javascript">
+    			RotateImages(1,0);
+    		</script>
+    	</div>
+    	<div class="box">
+    		<h2 class="BoxHeaders">Premium gift</h2>
+    		<img src="/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" alt="premium gift">
+    	</div>
+    </div>
+  </div>
+  <div id='footer'>
+    <h6 class="footertext">&copy; Filippo Pirro and Michael Kavanagh&trade; 2015</h6>
+  </div>
+</body>
+</html>

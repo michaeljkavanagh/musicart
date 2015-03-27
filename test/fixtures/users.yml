@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname: 
+  surname: 
+  email: 
+  username: 
+  role: 
+  CCnumber: 
+  CVV: 
+  expiringDate: 
+  CCowner: MyString
+
+two:
+  firstname: 
+  surname: 
+  email: 
+  username: 
+  role: 
+  CCnumber: 
+  CVV: 
+  expiringDate: 
+  CCowner: MyString
