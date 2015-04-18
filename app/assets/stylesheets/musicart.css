@@ -57,7 +57,7 @@ body {
     /* background: white;
     background-image: url("bg5.gif");*/
     background: rgb(0, 0, 0);
-    font-family: sans-serif;
+    font-family: 'MontereyFLF';
     margin: 0;
     padding: 0;
 }
@@ -98,6 +98,7 @@ div#content {
     border: 1px solid gray;
     min-height: 392px;
     width: 680px;
+    font-family:'MontereyFLF';
 }
 div#header,
 div#footer,
@@ -116,7 +117,7 @@ div#menu {
 }
 div#header {
     border-bottom: none;
-    background-image: url("/assets/Site/SongHeader.jpg") ;
+    background-image: url("/assets/Site/headphones.jpg") ;
     width: 1024px;
     height: 100px;
 }
@@ -145,8 +146,10 @@ div.searchbox {
      padding: 5px;         
      list-style-type: none;         
      text-align: left;        
-     background-color: #333;         
- }  
+     background-color: #333;   
+     font-family:'MontereyFLF';
+ }
+ 
  
  #navbar ul li           
  {

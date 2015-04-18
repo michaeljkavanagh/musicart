@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+function getSearch(){
+var temp = document.getElementById("joe").this.cells[0].text();
+alert(temp);
+}

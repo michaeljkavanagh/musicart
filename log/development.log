@@ -8177,3 +8177,2790 @@ Processing by ItemsController#index as HTML
 Completed 200 OK in 111ms (Views: 110.3ms | ActiveRecord: 0.3ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Migrating to CreateUsers (20150327200709)
+
+
+Started GET "/" for 193.1.209.100 at 2015-03-27 20:46:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (50.8ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-03-27 20:47:47 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (138.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327200709)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327205224)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327205224)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "surname" varchar, "email" varchar, "username" varchar, "role" varchar, "CCnumber" varchar, "CVV" varchar, "expiringDate" varchar, "CCowner" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+SQLite3::SQLException: table "users" already exists: CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "surname" varchar, "email" varchar, "username" varchar, "role" varchar, "CCnumber" varchar, "CVV" varchar, "expiringDate" varchar, "CCowner" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327205224)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327205548)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150327205548)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "surname" varchar, "email" varchar, "username" varchar, "role" varchar, "CCnumber" varchar, "CVV" varchar, "expiringDate" varchar, "CCowner" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150327205548"]]
+  [1m[35m (20.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 193.1.209.100 at 2015-03-27 21:00:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (144.5ms)
+Completed 200 OK in 657ms (Views: 633.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/musicart-d52f31cec55ed04439ff6961ea339216.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/application-3fd09e27e6d3b0b291220038790986d7.css?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:07 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-03-27 21:00:08 +0000
+
+
+Started GET "/assets/ACDC_-_Back_in_Black-2a15c8e8e0bbf03c1f67cbd567a604a2.png" for 193.1.209.100 at 2015-03-27 21:00:08 +0000
+
+
+Started GET "/assets/David_Bowie_-_Heroes-ad436dc872d71a0655329ae4cc499fe1.png" for 193.1.209.100 at 2015-03-27 21:00:08 +0000
+
+
+Started GET "/assets/ACDC_-_The_Razor_Edge-9b504a50b96dcbb72b4267171e3b4f20.jpg" for 193.1.209.100 at 2015-03-27 21:00:09 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-03-27 21:00:09 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-03-27 21:00:09 +0000
+
+
+Started GET "/assets/Site/SongHeader.jpg" for 193.1.209.100 at 2015-03-27 21:00:11 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-03-27 21:00:11 +0000
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 21:13:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (160.2ms)
+Completed 200 OK in 607ms (Views: 523.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 21:15:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (108.8ms)
+Completed 200 OK in 969ms (Views: 942.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.48.231 at 2015-04-16 21:15:35 +0000
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.48.231 at 2015-04-16 21:15:35 +0000
+
+
+Started GET "/assets/application-0b69fc62fe6d82b6c3f50ac5dc870324.js?body=1" for 80.111.48.231 at 2015-04-16 21:15:35 +0000
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 21:18:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 695ms (Views: 655.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 21:19:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 578ms (Views: 495.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 21:19:19 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 238ms (Views: 230.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-16 21:19:24 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 186ms (Views: 184.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 21:19:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 330ms (Views: 325.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/welcome" for 80.111.48.231 at 2015-04-16 21:20:12 +0000
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (35.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (264.3ms)
+
+
+Started GET "/welcome/index" for 80.111.48.231 at 2015-04-16 21:20:19 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 145ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.48.231 at 2015-04-16 21:22:26 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 395ms (Views: 392.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 80.111.48.231 at 2015-04-16 21:27:00 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 218ms (Views: 215.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-16 21:27:28 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 384ms (Views: 382.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 80.111.48.231 at 2015-04-16 21:27:47 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 244ms (Views: 242.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 80.111.48.231 at 2015-04-16 21:28:56 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 161ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 22:00:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 588ms (Views: 574.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 80.111.48.231 at 2015-04-16 22:00:10 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 222ms (Views: 220.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.48.231 at 2015-04-16 22:00:14 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 186ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 80.111.48.231 at 2015-04-16 22:00:17 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 22:00:17 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 286ms (Views: 280.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/logout" for 80.111.48.231 at 2015-04-16 22:00:46 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/welcome/index
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 80.111.48.231 at 2015-04-16 22:00:47 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-16 22:00:54 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 307ms (Views: 305.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 22:16:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 588ms (Views: 574.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 22:16:43 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 325ms (Views: 317.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/items/new" for 80.111.48.231 at 2015-04-16 22:17:13 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (34.8ms)
+  Rendered items/new.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 408ms (Views: 405.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 22:17:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 191ms (Views: 188.9ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20150416222640)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL[0m
+SQLite3::SQLException: duplicate column name: email: ALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20150416222640)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" varchar DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "reset_password_token" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "reset_password_sent_at" datetime[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "remember_created_at" datetime
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "sign_in_count" integer DEFAULT 0 NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "current_sign_in_at" datetime
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_at" datetime[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "current_sign_in_ip" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_ip" varchar[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "confirmation_token" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "confirmed_at" datetime[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "confirmation_sent_at" datetime
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "unconfirmed_email" varchar[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150416222640"]]
+  [1m[36m (21.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 22:42:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 44ms
+
+SyntaxError (/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+      <p class="notice">'.freeze;@output_buffer.append=( notice%</p>
+                                                                 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:31: unknown regexp option - p
+unmatched close parenthesis: /p>
+      <p class="alert"><%= alert);@output_buffer.safe_append='</
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:34: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:37: unknown regexp option - h
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:37: syntax error, unexpected tINTEGER, expecting ')'
+    		<h2 class="BoxHeaders">Search</h2>
+    		                                 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+    		<input type="text" name="search" /><input type="subm...
+    		                       ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+...ut type="text" name="search" /><input type="submit" value="S...
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h" /><input type="submit" value="Search" />
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:41: unknown regexp option - h
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:41: syntax error, unexpected tINTEGER, expecting ')'
+        <h2 class="BoxHeaders">Fan gift</h2>
+                                           ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+..._-_Nirvana_-_smile_01.jpg" name="Rotating" id="Rotating1" al...
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+...mile_01.jpg" name="Rotating" id="Rotating1" alt="fan gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e="Rotating" id="Rotating1" alt="fan gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:43: syntax error, unexpected '<'
+    		<script type="text/javascript">
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:45: syntax error, unexpected '<', expecting ')'
+    		</script>
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:46: unknown regexp options - dv
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+    	<div class="box">
+    	 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+    		<h2 class="BoxHeaders">Premium gift</h2>
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+    		<h2 class="BoxHeaders">Premium gift</h2>
+    		                                   ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: unknown regexp options - at
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t_-_ACDC_-_The_Razors_Edge.jpg" alt="premium gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e_Razors_Edge.jpg" alt="premium gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <h6 class="footertext">&copy; Filippo Pirro and Mi...
+                         ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: unterminated string meets end of file
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp option - p
+  app/views/layouts/application.html.erb:34: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:37: unknown regexp option - h
+  app/views/layouts/application.html.erb:37: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+  app/views/layouts/application.html.erb:41: unknown regexp option - h
+  app/views/layouts/application.html.erb:41: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:43: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:45: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:46: unknown regexp options - dv
+  app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:49: unknown regexp options - at
+  app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:54: unterminated string meets end of file
+  app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (69.8ms)
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-16 22:45:34 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (98.5ms)
+Completed 500 Internal Server Error in 151ms
+
+SyntaxError (/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+      <p class="notice">'.freeze;@output_buffer.append=( notice%</p>
+                                                                 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:31: unknown regexp option - p
+unmatched close parenthesis: /p>
+      <p class="alert"><%= alert);@output_buffer.safe_append='</
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:34: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:37: unknown regexp option - h
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:37: syntax error, unexpected tINTEGER, expecting ')'
+    		<h2 class="BoxHeaders">Search</h2>
+    		                                 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+    		<input type="text" name="search" /><input type="subm...
+    		                       ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+...ut type="text" name="search" /><input type="submit" value="S...
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+...h" /><input type="submit" value="Search" />
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:41: unknown regexp option - h
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:41: syntax error, unexpected tINTEGER, expecting ')'
+        <h2 class="BoxHeaders">Fan gift</h2>
+                                           ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+..._-_Nirvana_-_smile_01.jpg" name="Rotating" id="Rotating1" al...
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+...mile_01.jpg" name="Rotating" id="Rotating1" alt="fan gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e="Rotating" id="Rotating1" alt="fan gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:43: syntax error, unexpected '<'
+    		<script type="text/javascript">
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:45: syntax error, unexpected '<', expecting ')'
+    		</script>
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:46: unknown regexp options - dv
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+    	<div class="box">
+    	 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+    		<h2 class="BoxHeaders">Premium gift</h2>
+    		 ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+    		<h2 class="BoxHeaders">Premium gift</h2>
+    		                                   ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: unknown regexp options - at
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t_-_ACDC_-_The_Razors_Edge.jpg" alt="premium gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e_Razors_Edge.jpg" alt="premium gift">
+...                               ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <h6 class="footertext">&copy; Filippo Pirro and Mi...
+                         ^
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: unterminated string meets end of file
+/home/ubuntu/workspace/musicart/workspace/app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp option - p
+  app/views/layouts/application.html.erb:34: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:37: unknown regexp option - h
+  app/views/layouts/application.html.erb:37: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected '>'
+  app/views/layouts/application.html.erb:41: unknown regexp option - h
+  app/views/layouts/application.html.erb:41: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:43: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:45: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:46: unknown regexp options - dv
+  app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:49: unknown regexp options - at
+  app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:54: unterminated string meets end of file
+  app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (68.4ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 22:47:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 810ms (Views: 790.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-16 22:47:48 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (12.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 467ms (Views: 436.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 80.111.48.231 at 2015-04-16 22:48:55 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (15.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 363ms (Views: 352.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 80.111.48.231 at 2015-04-16 22:49:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (92.6ms)
+
+
+Started GET "/users" for 80.111.48.231 at 2015-04-16 22:49:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (89.5ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-16 22:50:43 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 271ms (Views: 268.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-16 22:50:45 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 352ms (Views: 320.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/confirmation/new" for 80.111.48.231 at 2015-04-16 22:51:41 +0000
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (14.7ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 363ms (Views: 350.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/confirmation" for 80.111.48.231 at 2015-04-16 22:51:46 +0000
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pA/Byg+ePyDGJbprqJg/22jJaGl+TRat14EJ3UEFgVZ973bLVuZ1sFyBJJegCpjyj/LrfQSELlBoZFCGA4WA1A==", "user"=>{"email"=>"micelinio@yahoo.ie"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "micelinio@yahoo.ie"]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "micelinio@yahoo.ie"]]
+  Rendered devise/shared/_links.html.erb (9.1ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 442ms (Views: 371.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/logout" for 80.111.48.231 at 2015-04-16 22:51:52 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/welcome/index
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 80.111.48.231 at 2015-04-16 22:51:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 176ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 22:51:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 362ms (Views: 356.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin" for 80.111.48.231 at 2015-04-16 22:52:13 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-16 22:52:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.9ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 263ms (Views: 260.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-16 22:52:21 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 230ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 80.111.48.231 at 2015-04-16 22:52:26 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 238ms (Views: 235.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-16 22:52:36 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 496ms (Views: 492.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.36.95.247 at 2015-04-17 08:14:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 482ms (Views: 469.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 08:14:06 +0000
+
+
+Started GET "/assets/Site/SongHeader.jpg" for 130.36.95.247 at 2015-04-17 08:14:06 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 130.36.95.247 at 2015-04-17 08:14:06 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 08:14:07 +0000
+
+
+Started GET "/admin" for 130.36.95.247 at 2015-04-17 08:14:13 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 130.36.95.247 at 2015-04-17 08:14:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (53.5ms)
+Completed 200 OK in 223ms (Views: 218.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/items/new" for 130.36.95.247 at 2015-04-17 08:14:20 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (30.0ms)
+  Rendered items/new.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 381ms (Views: 378.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 130.36.95.247 at 2015-04-17 08:15:02 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (11.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 261ms (Views: 233.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 130.36.95.247 at 2015-04-17 08:15:20 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 198ms (Views: 196.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 08:15:20 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 08:15:20 +0000
+
+
+Started GET "/" for 130.36.95.247 at 2015-04-17 14:12:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 625ms (Views: 609.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 14:12:24 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 14:12:24 +0000
+
+
+Started GET "/assets/Site/SongHeader.jpg" for 130.36.95.247 at 2015-04-17 14:12:24 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 130.36.95.247 at 2015-04-17 14:12:24 +0000
+
+
+Started GET "/admin" for 130.36.95.247 at 2015-04-17 14:12:26 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 130.36.95.247 at 2015-04-17 14:12:26 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 281ms (Views: 276.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 130.36.95.247 at 2015-04-17 14:12:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 286ms (Views: 283.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 14:12:33 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 14:12:33 +0000
+
+
+Started GET "/users/sign_up" for 130.36.95.247 at 2015-04-17 14:18:07 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (11.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (69.4ms)
+Completed 200 OK in 357ms (Views: 304.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for 130.36.95.247 at 2015-04-17 14:18:25 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u5dT34pXSASPH5/SFq35dw52O7keovtQ7ldVlVaR9fpXDGMho6i5uu7lUgzKm/6wZRV+doZUtLuQOG7DO3vXIg==", "user"=>{"email"=>"micelinio@yahoo.ie", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'micelinio@yahoo.ie' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "79d03674e69aa93391681671bcf07128af912401d044cb24dfa5dbf15ccbcfc7"]]
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "micelinio@yahoo.ie"], ["encrypted_password", "$2a$10$IxHP5GLhDmvF1APgB2779eMYzCpDtDfkvSeOp4FZ3GouDnpfggIe6"], ["created_at", "2015-04-17 14:18:25.336982"], ["updated_at", "2015-04-17 14:18:25.336982"], ["confirmation_token", "79d03674e69aa93391681671bcf07128af912401d044cb24dfa5dbf15ccbcfc7"], ["confirmation_sent_at", "2015-04-17 14:18:25.606008"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (5.1ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 330.1ms
+
+Sent mail to micelinio@yahoo.ie (60.2ms)
+Date: Fri, 17 Apr 2015 14:18:26 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: micelinio@yahoo.ie
+Message-ID: <55311632830a_7343fff18ccf84c59990@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome micelinio@yahoo.ie!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=UwaVF_JvwYSpsc9gH66W">Confirm my account</a></p>
+
+  [1m[36m (14.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 893ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/" for 130.36.95.247 at 2015-04-17 14:18:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 259ms (Views: 257.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 14:18:26 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 14:18:27 +0000
+
+
+Started GET "/admin" for 130.36.95.247 at 2015-04-17 14:21:06 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 130.36.95.247 at 2015-04-17 14:21:07 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 302ms (Views: 296.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/items" for 130.36.95.247 at 2015-04-17 14:21:19 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 287ms (Views: 284.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 130.36.95.247 at 2015-04-17 14:21:29 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 237ms (Views: 233.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.36.95.247 at 2015-04-17 14:21:32 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (14.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 381ms (Views: 377.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 130.36.95.247 at 2015-04-17 14:21:42 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G0e9uxm5ZDyVEhBqrPkOtTIuyJQD/mYdlEM/7Yup4Jz33I1FMEaVgvTo3bRwzwlyWU2NW5sIKfbqLAS75kPCRA==", "user"=>{"email"=>"micelinio@yahoo.ie", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "micelinio@yahoo.ie"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 401 Unauthorized in 87ms
+
+
+Started GET "/users/sign_in" for 130.36.95.247 at 2015-04-17 14:21:42 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (11.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 181ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 14:21:42 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 14:21:43 +0000
+
+
+Started GET "/users/confirmation/new" for 130.36.95.247 at 2015-04-17 14:21:47 +0000
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (10.0ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 180ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/confirmation" for 130.36.95.247 at 2015-04-17 14:21:56 +0000
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDzox+hhUId6NuPF86ovDSpdoJcG0GZAX15Tc+Bvpv/Qp9g5wZ6hORvMLhsvnCjKQT7lWJ4mKashMWgljYWEJw==", "user"=>{"email"=>"micelinio@yahoo.ie"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["unconfirmed_email", "micelinio@yahoo.ie"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "micelinio@yahoo.ie"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "a9a8b123e8df39cd5dc2e8df6001f95be578eb47a229736f1f76e183f846b789"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "users" SET "confirmation_token" = ?, "confirmation_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["confirmation_token", "a9a8b123e8df39cd5dc2e8df6001f95be578eb47a229736f1f76e183f846b789"], ["confirmation_sent_at", "2015-04-17 14:21:56.279215"], ["updated_at", "2015-04-17 14:21:56.280281"], ["id", 1]]
+  [1m[35m (12.0ms)[0m  commit transaction
+  Rendered devise/mailer/confirmation_instructions.html.erb (6.3ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 20.6ms
+
+Sent mail to micelinio@yahoo.ie (9.6ms)
+Date: Fri, 17 Apr 2015 14:21:56 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: micelinio@yahoo.ie
+Message-ID: <553117044f571_7342ffea186008a@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome micelinio@yahoo.ie!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=MGTsyVMjgf2ydwczvZKJ">Confirm my account</a></p>
+
+Redirected to https://rails-tutorial-micelinio.c9.io/users/sign_in
+Completed 302 Found in 78ms (ActiveRecord: 13.9ms)
+
+
+Started GET "/users/sign_in" for 130.36.95.247 at 2015-04-17 14:21:56 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (26.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 247ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 130.36.95.247 at 2015-04-17 14:21:56 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 130.36.95.247 at 2015-04-17 14:21:56 +0000
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-17 17:08:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 491ms (Views: 477.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:08:06 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:08:06 +0000
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-17 17:08:11 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (11.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 273ms (Views: 245.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 80.111.48.231 at 2015-04-17 17:08:41 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yk+h200Md2kYDKNgxOpGYb+wYDNkY6YPqnF+k2sECwCO1JElZPOG13n2br4Y3EGm1NMl/PyV6eTUHkXFBu4p2A==", "user"=>{"email"=>"micelinio@yahoo.ie", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'micelinio@yahoo.ie' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (7.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 466ms (Views: 291.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:08:42 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:08:42 +0000
+
+
+Started POST "/users" for 80.111.48.231 at 2015-04-17 17:09:05 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xAQlIDzIjpBbhs8fAbCV+f+8GgS23vnsJJLojfCu4PwonxXeFTd/Ljp8AsHdhpI+lN9fyy4otgda/dPbnUTCJA==", "user"=>{"email"=>"michaeljohnport@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'michaeljohnport@gmail.com' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "2c0fe7fe60ece9b05fa306b7083770a44c2833d03d1f30d452ddba921067353b"]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "michaeljohnport@gmail.com"], ["encrypted_password", "$2a$10$PhP69y3pqWDXp4LM3A0AoOvLB6jyiPgzIku4mUkQnauzP9EaYQlNe"], ["created_at", "2015-04-17 17:09:05.940861"], ["updated_at", "2015-04-17 17:09:05.940861"], ["confirmation_token", "2c0fe7fe60ece9b05fa306b7083770a44c2833d03d1f30d452ddba921067353b"], ["confirmation_sent_at", "2015-04-17 17:09:06.280050"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (6.5ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 400.2ms
+
+Sent mail to michaeljohnport@gmail.com (30018.7ms)
+Date: Fri, 17 Apr 2015 17:09:06 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: michaeljohnport@gmail.com
+Message-ID: <55313e32af228_a923fedd69664c4783d@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome michaeljohnport@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=VUEFY-BgM88JVUoCtLa7">Confirm my account</a></p>
+
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 30905ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-17 17:09:37 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 283ms (Views: 281.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:09:37 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:09:37 +0000
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-17 17:17:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 548ms (Views: 533.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:17:51 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:17:51 +0000
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-17 17:17:56 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (25.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 346ms (Views: 315.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/confirmation/new" for 80.111.48.231 at 2015-04-17 17:18:05 +0000
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (12.5ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 285ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/confirmation" for 80.111.48.231 at 2015-04-17 17:18:11 +0000
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hk/rEZbRLpaEPSh08yEUWpy9JhkM8pVm29XS7cIhbw5q1Nvvvy7fKOXH5aovFxOd995j1pQE2o2luum7r8tN1g==", "user"=>{"email"=>"micelinio@yahoo.ie"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "micelinio@yahoo.ie"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "micelinio@yahoo.ie"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "1a1aa5af60293dbd904ee796474bdc54fc5437dce66cdd4194cede186248073e"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "confirmation_token" = ?, "confirmation_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["confirmation_token", "1a1aa5af60293dbd904ee796474bdc54fc5437dce66cdd4194cede186248073e"], ["confirmation_sent_at", "2015-04-17 17:18:11.723920"], ["updated_at", "2015-04-17 17:18:11.725044"], ["id", 1]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (5.8ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 364.4ms
+
+Sent mail to micelinio@yahoo.ie (30020.9ms)
+Date: Fri, 17 Apr 2015 17:18:12 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: micelinio@yahoo.ie
+Message-ID: <553140541fb22_af13f850a157344770fe@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome micelinio@yahoo.ie!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=Wcz9LVxzskgz6jLC8vRK">Confirm my account</a></p>
+
+Redirected to https://rails-tutorial-micelinio.c9.io/users/sign_in
+Completed 302 Found in 30726ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/users/sign_in" for 80.111.48.231 at 2015-04-17 17:18:42 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 167ms (Views: 163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:18:43 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:18:43 +0000
+
+
+Started GET "/users/confirmation/new" for 80.111.48.231 at 2015-04-17 17:19:38 +0000
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (10.4ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 296ms (Views: 292.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/confirmation" for 80.111.48.231 at 2015-04-17 17:19:44 +0000
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aj/rHWdZ2AEblMGdUu215X7Ahu8IEFdwIqK+d+7iFH6GpNvjTqYpv3puDEOO27IiFaPDIJDmGJtczYUhgwg2pg==", "user"=>{"email"=>"michaeljohnport@gmail.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "michaeljohnport@gmail.com"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "michaeljohnport@gmail.com"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "2f8202f9ffd8430f7359fa094fb1f203b10092639ef437b0fe57c61e0b304b03"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "confirmation_token" = ?, "confirmation_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["confirmation_token", "2f8202f9ffd8430f7359fa094fb1f203b10092639ef437b0fe57c61e0b304b03"], ["confirmation_sent_at", "2015-04-17 17:19:44.942467"], ["updated_at", "2015-04-17 17:19:44.943362"], ["id", 2]]
+  [1m[36m (15.7ms)[0m  [1mcommit transaction[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (5.4ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 20.8ms
+
+Sent mail to michaeljohnport@gmail.com (30006.7ms)
+Date: Fri, 17 Apr 2015 17:19:44 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: michaeljohnport@gmail.com
+Message-ID: <553140b0f0e09_af13f850a7ac898771a9@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome michaeljohnport@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=yGfnseYQwauAsxB6E73g">Confirm my account</a></p>
+
+Redirected to https://rails-tutorial-micelinio.c9.io/users/sign_in
+Completed 302 Found in 30082ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/users/sign_in" for 80.111.48.231 at 2015-04-17 17:20:15 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 187ms (Views: 182.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:20:15 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:20:15 +0000
+
+
+Started GET "/users/sign_up" for 80.111.48.231 at 2015-04-17 17:20:23 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 234ms (Views: 230.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 80.111.48.231 at 2015-04-17 17:20:41 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y7lQ+fuaD6EK30NbWUWvJCrh0TnnYpGlq8WwX6J4eaiPImAH0mX+H2sljoWFc6jjQYKU9n+U3k7VqosJz5JbcA==", "user"=>{"email"=>"x14107660@student.ncirl.ie", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'x14107660@student.ncirl.ie' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "e3147b6e39f740b686a990badb19a1bb5f02dd63dd04061927165d5de9a0c809"]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "x14107660@student.ncirl.ie"], ["encrypted_password", "$2a$10$zSmsmwy7d/xtFmNqB5hzjODWste3DX3bTfBhwwhGH0WJ3drYd1EfW"], ["created_at", "2015-04-17 17:20:41.863329"], ["updated_at", "2015-04-17 17:20:41.863329"], ["confirmation_token", "e3147b6e39f740b686a990badb19a1bb5f02dd63dd04061927165d5de9a0c809"], ["confirmation_sent_at", "2015-04-17 17:20:41.865491"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (4.0ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 19.5ms
+
+Sent mail to x14107660@student.ncirl.ie (30006.3ms)
+Date: Fri, 17 Apr 2015 17:20:41 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: x14107660@student.ncirl.ie
+Message-ID: <553140e9da159_af13f850aa5f9b4772df@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome x14107660@student.ncirl.ie!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=hMDujfv2aXwRvJWy1ydB">Confirm my account</a></p>
+
+  [1m[35m (11.3ms)[0m  commit transaction
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 30157ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/" for 80.111.48.231 at 2015-04-17 17:21:12 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 218ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 80.111.48.231 at 2015-04-17 17:21:12 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 80.111.48.231 at 2015-04-17 17:21:12 +0000
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-17 23:01:51 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (32.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (513.2ms)
+Completed 200 OK in 1716ms (Views: 1548.1ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/admin" for 80.111.48.231 at 2015-04-17 23:02:01 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/items
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-17 23:02:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 190ms (Views: 188.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/4" for 80.111.48.231 at 2015-04-17 23:02:11 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered items/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 227ms (Views: 200.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cart/4" for 80.111.48.231 at 2015-04-17 23:02:13 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"4"}
+Redirected to https://rails-tutorial-micelinio.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-17 23:02:14 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered cart/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 266ms (Views: 262.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-17 23:02:15 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered cart/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 202ms (Views: 200.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.48.231 at 2015-04-17 23:02:26 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 179ms (Views: 176.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1" for 80.111.48.231 at 2015-04-17 23:02:28 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 153ms (Views: 150.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart/1" for 80.111.48.231 at 2015-04-17 23:02:30 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-micelinio.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.48.231 at 2015-04-17 23:02:31 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 222ms (Views: 220.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:41:54 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 389ms (Views: 385.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/musicart-1caeb8e78febef96c1406797af0815d7.css?body=1" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/assets/application-3f468b7acfe00a84679915d491a35b86.css?body=1" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:41:55 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:42:16 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 249ms (Views: 244.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-3e753bb58a588f2d992588631d3e63c5.css?body=1" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/assets/musicart-8dd9f1610aec6f8ec7577340dc0941ec.css?body=1" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/assets/Site/amp.jpg" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:42:17 +0000
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-18 08:42:29 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 251ms (Views: 250.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:42:41 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 214ms (Views: 212.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:42:42 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:42:42 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:52:07 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 331ms (Views: 327.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/musicart-6e2a7a820fe586ba6744bd5ede432697.css?body=1" for 193.1.209.100 at 2015-04-18 08:52:08 +0000
+
+
+Started GET "/assets/application-f108ffc2d3702c3737af6e4e2b70e4c5.css?body=1" for 193.1.209.100 at 2015-04-18 08:52:08 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:52:08 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:52:08 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 08:52:09 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:52:09 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:55:31 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 318ms (Views: 314.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/musicart-eeb987e672a9baf3828a01e6bc3eacb5.css?body=1" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/assets/application-02283f969d6ebc9c8f3ab46df0e4ceeb.css?body=1" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:55:32 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:55:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 264ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-2c042fc944ea40d1fc9cd046afd77942.css?body=1" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/assets/musicart-58965cd2fd32705cb925ef834970caac.css?body=1" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:56:00 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 08:56:08 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 284ms (Views: 282.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-0aff757fe4a822b247e73703a66394bd.css?body=1" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/assets/musicart-ff3f79e3d3e72d9e2a58cf09fbb19ae9.css?body=1" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 08:56:09 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:09:28 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 313ms (Views: 307.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-35a68b83b55bb78697e8605367b13285.css?body=1" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/assets/musicart-f17502a692a21bdaa0c7d3beda76add8.css?body=1" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 09:09:29 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:09:47 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 308ms (Views: 305.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/musicart-e10288ca0ccda337939b0ea410276078.css?body=1" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/assets/application-d34390e7bed9a4785c8bc9ec8c21844f.css?body=1" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 09:09:48 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:10:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 182ms (Views: 178.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-7932a83a007130ca69d60f9bc1c2ece4.css?body=1" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/assets/musicart-00aff28e9ecf34663b75d7f0fbb1eb29.css?body=1" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 09:10:45 +0000
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-18 09:10:48 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 219ms (Views: 218.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-04-18 09:10:58 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 187ms (Views: 186.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:12:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 275ms (Views: 272.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:12:01 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:12:01 +0000
+
+
+Started GET "/about" for 193.1.209.100 at 2015-04-18 09:12:02 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 200ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-18 09:12:27 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 252ms (Views: 251.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 09:12:31 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 312ms (Views: 271.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-04-18 09:12:40 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 167ms (Views: 165.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:13:18 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 216ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/musicart-682ead87967f26f9f7e42326ffd91502.css?body=1" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/assets/application-6d9f5e23b227134069ce1287a8244e4f.css?body=1" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 09:13:19 +0000
+
+
+Started GET "/about" for 193.1.209.100 at 2015-04-18 09:13:24 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 187ms (Views: 184.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-04-18 09:13:30 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 248ms (Views: 247.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-18 09:13:33 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 229ms (Views: 227.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:15:52 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 264ms (Views: 260.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:15:53 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:15:53 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:15:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 160ms (Views: 158.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:16:00 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:16:00 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:16:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 180ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:16:34 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:16:34 +0000
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-18 09:37:08 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 257ms (Views: 253.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:37:11 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 258ms (Views: 257.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:37:12 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:37:12 +0000
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-18 09:37:16 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 176ms (Views: 172.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:39:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 352ms (Views: 347.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-2b782387ce7fdf28aec0f843f551c717.js?body=1" for 193.1.209.100 at 2015-04-18 09:39:00 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:39:00 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:39:00 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:39:54 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 165ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:39:55 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:39:55 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:41:57 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 340ms (Views: 335.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-9a5d69c9fcdfe09be86f37370dbbd76e.js?body=1" for 193.1.209.100 at 2015-04-18 09:41:58 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:41:58 +0000
+
+
+Started GET "/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 09:41:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (27.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (21.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (41.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (266.3ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:41:58 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:43:17 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 211ms (Views: 209.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 09:43:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (134.6ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:43:18 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:43:18 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:44:08 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 166ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:44:08 +0000
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 09:44:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (82.6ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:44:08 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 09:44:46 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 207ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 09:44:47 +0000
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 09:44:47 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (95.9ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 09:44:47 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 12:25:18 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 265ms (Views: 261.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:25:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (76.5ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 12:25:18 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 12:25:18 +0000
+
+
+Started GET "/assets/Site/headphones.jpg" for 193.1.209.100 at 2015-04-18 12:25:19 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-04-18 12:25:19 +0000
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 12:25:30 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 268ms (Views: 265.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:25:31 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (78.5ms)
+
+
+Started POST "/users" for 193.1.209.100 at 2015-04-18 12:25:53 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bw1TzwSNXomV7OVwTqIOZiDhwaGKnwh2v23XEUYJhbbrlmMxLXKvN/QWKK6SlAmhS4KEbhJpR53BAuxHK+Onbg==", "user"=>{"email"=>"michaeljohnport@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (5.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'michaeljohnport@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (11.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 436ms (Views: 262.8ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 12:25:54 +0000
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 12:25:54 +0000
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:25:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (95.6ms)
+
+
+Started POST "/users" for 193.1.209.100 at 2015-04-18 12:26:21 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zEwqvf5UVLaD+/u54wZlR3TTYLcvUjT9he7Sj1ziDmcg1xpD16ulCOIBNmc/MGKAH7AleLekexb7genZMQgsvw==", "user"=>{"email"=>"michaeljohnporto@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'michaeljohnporto@gmail.com' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "45b597598bb1cc3fed23e75a2d326c88f421e11224a9b7f62cdc61d3dafef67d"]]
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "michaeljohnporto@gmail.com"], ["encrypted_password", "$2a$10$t40vRfpQnd3PKWh0Z96d0.yq3K6IMDDSmKa20yQY4VeDC164ApRZ2"], ["created_at", "2015-04-18 12:26:22.018081"], ["updated_at", "2015-04-18 12:26:22.018081"], ["confirmation_token", "45b597598bb1cc3fed23e75a2d326c88f421e11224a9b7f62cdc61d3dafef67d"], ["confirmation_sent_at", "2015-04-18 12:26:22.042164"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (19.9ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 99.8ms
+
+Sent mail to michaeljohnporto@gmail.com (30088.5ms)
+Date: Sat, 18 Apr 2015 12:26:22 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: michaeljohnporto@gmail.com
+Message-ID: <55324d6e3d3f4_af13f850c5e48d877392@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome michaeljohnporto@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=VAqzzWSW8sCqZTW95ERZ">Confirm my account</a></p>
+
+  [1m[36m (23.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 30441ms (ActiveRecord: 25.2ms)
+
+
+Started POST "/users" for 193.1.209.100 at 2015-04-18 12:26:52 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zEwqvf5UVLaD+/u54wZlR3TTYLcvUjT9he7Sj1ziDmcg1xpD16ulCOIBNmc/MGKAH7AleLekexb7genZMQgsvw==", "user"=>{"email"=>"michaeljohnporto1@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'michaeljohnporto1@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "51703f6649793f515d7acc5c11c82dba3bfe006c6db4363327dd97c18eda4809"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "michaeljohnporto1@gmail.com"], ["encrypted_password", "$2a$10$woLe3/MN78s0Pp3Z4.nA5O4NXUx.YCuezPKbZJ63Swq0H.s06W6B."], ["created_at", "2015-04-18 12:26:52.465985"], ["updated_at", "2015-04-18 12:26:52.465985"], ["confirmation_token", "51703f6649793f515d7acc5c11c82dba3bfe006c6db4363327dd97c18eda4809"], ["confirmation_sent_at", "2015-04-18 12:26:52.468036"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (7.6ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 27.7ms
+
+Sent mail to michaeljohnporto1@gmail.com (30014.2ms)
+Date: Sat, 18 Apr 2015 12:26:52 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: michaeljohnporto1@gmail.com
+Message-ID: <55324d8c7a925_af13f850c562dc4774c7@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome michaeljohnporto1@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=gJ-oVdVyGHi2B2sNswcw">Confirm my account</a></p>
+
+  [1m[35m (11.5ms)[0m  commit transaction
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 30152ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 12:27:22 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 257ms (Views: 255.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 12:27:22 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 278ms (Views: 275.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 12:27:23 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 329ms (Views: 327.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-04-18 12:27:23 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-micelinio.c9.io/welcome/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 12:27:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 532ms (Views: 514.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 12:27:42 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 12:27:42 +0000
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:27:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (19.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (187.3ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-04-18 12:28:40 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 208ms (Views: 206.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (81.6ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-18 12:28:45 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 277ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:46 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (79.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-18 12:28:50 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.7ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (63.4ms)
+Completed 200 OK in 282ms (Views: 275.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (46.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (141.7ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-04-18 12:28:53 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-micelinio.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-04-18 12:28:54 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 254ms (Views: 252.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (130.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-18 12:28:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 166ms (Views: 164.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:57 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (72.3ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-04-18 12:28:58 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-micelinio.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-04-18 12:28:58 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 183ms (Views: 182.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:28:59 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/users/sign_up" for 193.1.209.100 at 2015-04-18 12:29:32 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (73.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (97.2ms)
+Completed 200 OK in 366ms (Views: 331.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:29:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (93.3ms)
+
+
+Started POST "/users" for 193.1.209.100 at 2015-04-18 12:29:46 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9+5AszKFJ4/eORlEVn6KkYCF87ezsM7GRg45Yor3P+IbdXBNG3rWMb/D1JqKSI1W6+a2eCtGgS04YQI05x0dOg==", "user"=>{"email"=>"alphabetmusic@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'alphabetmusic@gmail.com' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "2c71181956ce061cbef3f3b15c0ce10b5cd41c135d52d7522a5bec8c5fe60bca"]]
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "alphabetmusic@gmail.com"], ["encrypted_password", "$2a$10$bSmFNBuWN0RNXGNmE9pqLOqOVUZNgAujIPvDV/GuBYe/LNNUBIO7a"], ["created_at", "2015-04-18 12:29:46.739034"], ["updated_at", "2015-04-18 12:29:46.739034"], ["confirmation_token", "2c71181956ce061cbef3f3b15c0ce10b5cd41c135d52d7522a5bec8c5fe60bca"], ["confirmation_sent_at", "2015-04-18 12:29:46.993686"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (6.1ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 315.1ms
+
+Sent mail to alphabetmusic@gmail.com (30028.6ms)
+Date: Sat, 18 Apr 2015 12:29:47 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: alphabetmusic@gmail.com
+Message-ID: <55324e3b66733_13263f8178644d384775d@micelinio-rails-tutorial-1289411.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome alphabetmusic@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=s8yajK1vfoGoumwW8osC">Confirm my account</a></p>
+
+  [1m[36m (15.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://rails-tutorial-micelinio.c9.io/
+Completed 302 Found in 30913ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-18 12:30:17 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 179ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/application.js" for 193.1.209.100 at 2015-04-18 12:30:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/application.js"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (138.3ms)
+
+
+Started GET "/assets/T-shirt_-_ACDC_-_The_Razors_Edge.jpg" for 193.1.209.100 at 2015-04-18 12:30:18 +0000
+
+
+Started GET "/assets/T-shirt_-_Nirvana_-_smile_01.jpg" for 193.1.209.100 at 2015-04-18 12:30:18 +0000

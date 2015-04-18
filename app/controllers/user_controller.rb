@@ -13,6 +13,6 @@ class UserController < ApplicationController
     session[:login] = nil
     session[:cart] = nil
     flash[:notice] = "User logged out, cart reset."
-    redirect_to :controller => :items
+    redirect_to :controller => :welcome
   end
 end
