@@ -3,8 +3,8 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'stormy-garden-9130.herokuapp.com'}
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
-  config.serve_static_assets = true
-  config.assets.compile = true
+  #config.serve_static_assets = true
+  #config.assets.compile = true
 
   # Code is not reloaded between requests.
   config.cache_classes = true
