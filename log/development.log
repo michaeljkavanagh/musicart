@@ -15782,3 +15782,4 @@ Processing by ItemsController#index as HTML
 Completed 200 OK in 287ms (Views: 282.3ms | ActiveRecord: 0.8ms)
 DEPRECATION WARNING: Devise.allow_insecure_token_lookup= is deprecated and has no effect. (called from allow_insecure_token_lookup= at (eval):6)
 DEPRECATION WARNING: Devise.allow_insecure_token_lookup= is deprecated and has no effect. (called from allow_insecure_token_lookup= at (eval):6)
+DEPRECATION WARNING: Devise.allow_insecure_token_lookup= is deprecated and has no effect. (called from allow_insecure_token_lookup= at (eval):6)
