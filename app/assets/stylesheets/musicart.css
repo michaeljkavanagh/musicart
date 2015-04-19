@@ -54,8 +54,8 @@ h2.BoxHeaders {
 }  
 
 body {
-    /* background: white;
-    background-image: url("bg5.gif");*/
+    background: black;
+    /*background-image: url("bg5.gif");*/
     background: rgb(0, 0, 0);
     font-family: 'MontereyFLF';
     margin: 0;
