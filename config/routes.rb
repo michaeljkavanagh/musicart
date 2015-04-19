@@ -3,9 +3,11 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   get '/about' => 'site#about'
-  get '/contact' => 'site#contact' 
+  get '/contact' => 'site#contact'
+  get '/thanks' => 'site#thanks'
   get '/admin' => 'user#admin_login'
   get '/logout' => 'user#logout'
+  get '/purchase' => 'user#purchase'
   get '/cart' => 'cart#index'
   get '/cart/:id' => 'cart#add'
 

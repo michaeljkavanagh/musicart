@@ -16,10 +16,17 @@ ActiveRecord::Schema.define(version: 20150416222640) do
   create_table "items", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
-    t.decimal  "price",       precision: 8, scale: 2
+    t.decimal  "price"
     t.string   "image_url"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.string   "email"
+    t.decimal  "totalprice"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
