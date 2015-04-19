@@ -1,5 +1,5 @@
 body {
-	background-color: #000000;
+	
 }
 
 img.floatLeft { 
@@ -54,7 +54,7 @@ h2.BoxHeaders {
 }  
 
 body {
-    background-color: #000000;
+    background: rgb(20, 20, 20);
     /*background-image: url("bg5.gif");*/
     /*background: rgb(0, 0, 0);*/
     font-family: 'MontereyFLF';
