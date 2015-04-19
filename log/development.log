@@ -15780,3 +15780,5 @@ Processing by ItemsController#index as HTML
   [1m[35mItem Load (0.8ms)[0m  SELECT "items".* FROM "items"
   Rendered items/index.html.erb within layouts/application (24.5ms)
 Completed 200 OK in 287ms (Views: 282.3ms | ActiveRecord: 0.8ms)
+DEPRECATION WARNING: Devise.allow_insecure_token_lookup= is deprecated and has no effect. (called from allow_insecure_token_lookup= at (eval):6)
+DEPRECATION WARNING: Devise.allow_insecure_token_lookup= is deprecated and has no effect. (called from allow_insecure_token_lookup= at (eval):6)
